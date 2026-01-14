@@ -1,0 +1,5 @@
+index="botsv3" earliest=0 sourcetype="winhostmon" window*
+| stats values(host) by OS
+
+index="botsv3" earliest=0 sourcetype="wineventlog:system"
+window* host="BSTOLL-L"
