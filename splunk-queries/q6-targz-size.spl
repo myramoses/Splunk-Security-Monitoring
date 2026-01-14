@@ -1,0 +1,4 @@
+index=botsv3 earliest=0 sourcetype="aws:s3:accesslogs"
+frothlywebcode "*.tar.gz"
+| rex "\"\s+\d+\s+-\s+(?<file_size_bytes>\d+)"
+| eval sizeMB=round(file_size_bytes/1024/1024, 2)
