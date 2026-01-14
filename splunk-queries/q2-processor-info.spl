@@ -1,0 +1,6 @@
+index="botsv3" earliest=0 intel OR amd sourcetype="hardware"
+
+index="botsv3" earliest=0 
+host="gacrux.i-06fea586f3d3c8ce8" OR 
+host="gacrux.i-09cbc261e84259b54" OR 
+host="gacrux.i-0cc93bade2b3cba63"
