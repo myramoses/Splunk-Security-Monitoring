@@ -1,0 +1,2 @@
+index="botsv3" earliest=0 sourcetype="aws:cloudtrail"
+eventName=PutBucketAcl OR PutBucketPolicy AllUsers
