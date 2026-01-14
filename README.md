@@ -40,6 +40,12 @@ Identifying anomalous operating systems
 
 ---
 
+## 📁 Splunk Queries
+All Splunk SPL queries used in this project are available here:
+👉 [View Splunk Queries](splunk-queries/)
+
+---
+
 ## 🔍 Investigation Tasks & Findings
 
 ---
